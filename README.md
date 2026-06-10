@@ -9,6 +9,11 @@ The app safely stores these entries using parallel arrays, calculates the total 
 ### Moeng Oratile
 ### ST10502191
 
+--- 
+
+[![Android CI](https://github.com/moengapp/campsiteCommander/actions/workflows/android.yml/badge.svg)](https://github.com/moengapp/campsiteCommander/actions/workflows/android.yml)
+
+---
 ## Features
 
 * **Splash Screen:** A 3-second nature-themed loading screen welcoming users to the app.
