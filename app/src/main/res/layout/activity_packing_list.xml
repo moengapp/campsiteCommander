@@ -5,7 +5,7 @@
   android:orientation="vertical"
   android:fitsSystemWindows="true"
   android:padding="16dp"
-  android:background="#222831"> 
+  android:background="#FFF3F5"> 
 
 <Button
   android:id="@+id/btnDisplayList"
@@ -13,21 +13,21 @@
   android:layout_height="wrap_content"
   android:text="Display Gear Checklist"
   android:textColor="#FFFFFF"
-  android:backgroundTint="#D65A31"/>
+  android:backgroundTint="#FF7597"/>
 
 <ScrollView
   android:layout_width="match_parent"
   android:layout_height="0dp"
   android:layout_weight="1"
   android:layout_marginTop="10dp"
-  android:background="#393E46" 
+  android:background="#FFFFFF" 
   android:padding="10dp">
 
 <TextView
   android:id="@+id/txtResults"
   android:layout_width="match_parent"
   android:layout_height="wrap_content"
-  android:textColor="#FFFFFF"
+  android:textColor="#3D343C"
   android:textSize="16sp" />
 
     </ScrollView>
@@ -39,6 +39,6 @@
       android:text="Back To Base"
       android:textColor="#FFFFFF"
       android:layout_marginTop="10dp"
-      android:backgroundTint="#4A4E69"/> 
+      android:backgroundTint="#A288A6"/> 
 
   </LinearLayout>

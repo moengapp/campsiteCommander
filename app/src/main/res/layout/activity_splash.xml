@@ -5,13 +5,14 @@
   android:layout_height="match_parent"
   android:orientation="vertical"
   android:gravity="center"
-  android:background="#222831">
+  android:background="#FFF3F5">
+
 <ImageView
   android:layout_width="120dp"
   android:layout_height="120dp"
-  android:src="@android:drawable/ic_menu_compass" 
-  app:tint="#F2A365"
-  android:contentDescription="App Logo" /> 
+  android:src="@drawable/ic_tent" 
+  app:tint="#E05A87"
+  android:contentDescription="App Logo" />
 
 <TextView
   android:layout_width="wrap_content"
@@ -19,7 +20,7 @@
   android:text="Campsite Commander"
   android:textSize="32sp"
   android:textStyle="bold"
-  android:textColor="#F2A365" 
+  android:textColor="#E05A87" 
   android:layout_marginTop="20dp" />
 
 </LinearLayout>

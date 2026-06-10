@@ -1,102 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-  android:layout_width="match_parent"
-  android:layout_height="match_parent"
-  android:background="#222831" 
-  android:fitsSystemWindows="true">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF3F5" 
+    android:fitsSystemWindows="true">
 
-<LinearLayout
-  android:layout_width="match_parent"
-  android:layout_height="wrap_content"
-  android:orientation="vertical"
-  android:padding="20dp"
-  android:focusable="true"
-  android:focusableInTouchMode="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
 
-<TextView
-  android:layout_width="wrap_content"
-  android:layout_height="wrap_content"
-  android:text="Campsite Commander"
-  android:textColor="#F2A365"
-  android:textSize="28sp"
-  android:textStyle="bold"
-  android:layout_gravity="center"
-  android:layout_marginBottom="10dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Campsite Commander"
+            android:textColor="#E05A87"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp" />
 
-<TextView
-  android:id="@+id/txtTotalItems"
-  android:layout_width="wrap_content"
-  android:layout_height="wrap_content"
-  android:text="Total Items Packed: 0"
-  android:textColor="#EEEEEE"
-  android:textSize="18sp"
-  android:layout_gravity="center"
-  android:layout_marginBottom="20dp" />
+        <TextView
+            android:id="@+id/txtTotalItems"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Items Packed: 0"
+            android:textColor="#3D343C"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp" />
 
-<EditText
-  android:id="@+id/edtItem"
-  android:layout_width="match_parent"
-  android:layout_height="wrap_content"
-  android:hint="Gear Item Name"
-  android:textColorHint="#9BA4B5"
-  android:textColor="#FFFFFF"
-  android:minHeight="48dp" />
+        <EditText
+            android:id="@+id/edtItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Gear Item Name"
+            android:textColorHint="#A696A6"
+            android:textColor="#3D343C"
+            android:minHeight="48dp" />
 
-<EditText
-  android:id="@+id/edtCategory"
-  android:layout_width="match_parent"
-  android:layout_height="wrap_content"
-  android:hint="Category (e.g., Shelter)"
-  android:textColorHint="#9BA4B5"
-  android:textColor="#FFFFFF"
-  android:minHeight="48dp" />
+        <EditText
+            android:id="@+id/edtCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Category (e.g., Shelter)"
+            android:textColorHint="#A696A6"
+            android:textColor="#3D343C"
+            android:minHeight="48dp" />
 
-<EditText
-  android:id="@+id/edtQuantity"
-  android:layout_width="match_parent"
-  android:layout_height="wrap_content"
-  android:hint="Quantity"
-  android:inputType="number"
-  android:textColorHint="#9BA4B5"
-  android:textColor="#FFFFFF"
-  android:minHeight="48dp" />
+        <EditText
+            android:id="@+id/edtQuantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Quantity"
+            android:inputType="number"
+            android:textColorHint="#A696A6"
+            android:textColor="#3D343C"
+            android:minHeight="48dp" />
 
-<EditText
-  android:id="@+id/edtComments"
-  android:layout_width="match_parent"
-  android:layout_height="wrap_content"
-  android:hint="Notes/Comments"
-  android:textColorHint="#9BA4B5"
-  android:textColor="#FFFFFF"
-  android:minHeight="48dp" />
+        <EditText
+            android:id="@+id/edtComments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Notes/Comments"
+            android:textColorHint="#A696A6"
+            android:textColor="#3D343C"
+            android:minHeight="48dp" />
 
-<Button
-  android:id="@+id/btnAdd"
-  android:layout_width="match_parent"
-  android:layout_height="wrap_content"
-  android:text="Add Gear"
-  android:backgroundTint="#D65A31" 
-  android:textColor="#FFFFFF"
-  android:layout_marginTop="10dp" />
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Gear"
+            android:backgroundTint="#FF7597" 
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="10dp" />
 
-<Button
-  android:id="@+id/btnView"
-  android:layout_width="match_parent"
-  android:layout_height="wrap_content"
-  android:text="View Checklist"
-  android:backgroundTint="#D65A31"
-  android:textColor="#FFFFFF"
-  android:layout_marginTop="10dp" />
+        <Button
+            android:id="@+id/btnView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Checklist"
+            android:backgroundTint="#FF7597"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="10dp" />
 
-<Button
-  android:id="@+id/btnExit"
-  android:layout_width="match_parent"
-  android:layout_height="wrap_content"
-  android:text="Exit"
-  android:backgroundTint="#4A4E69" 
-  android:textColor="#FFFFFF"
-  android:layout_marginTop="10dp" />
+        <Button
+            android:id="@+id/btnExit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exit"
+            android:backgroundTint="#A288A6" 
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="10dp" />
 
     </LinearLayout>
-
-  </ScrollView>
+</ScrollView>
