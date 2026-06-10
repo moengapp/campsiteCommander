@@ -1,3 +1,6 @@
+// Moeng oratile
+// ST10502191
+
 package com.example.imad5112a2
 
 import android.content.Intent

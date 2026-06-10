@@ -1,3 +1,6 @@
+// Moeng oratile
+// ST10502191
+
 package com.example.imad5112a2
 
 import android.content.Intent
@@ -11,11 +14,11 @@ class SplashActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
 
-        // Transition to Main Screen after 3 seconds (3000ms)
+        // Transition to Main Screen after 4 seconds (4000ms)
         Handler(Looper.getMainLooper()).postDelayed({
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
             finish() // Destroys SplashActivity so the user cannot press 'back' to return to it
-        }, 3000)
+        }, 4000)
     }
 }
